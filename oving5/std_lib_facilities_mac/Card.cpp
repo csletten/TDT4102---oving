@@ -6,7 +6,10 @@
 //  Copyright © 2019 Lars Musaus. All rights reserved.
 //
 
+#include "std_lib_facilities.h"
 #include "Card.hpp"
+#include "CardDeck.hpp"
+#include "Blackjack.hpp"
 
 map<Rank, string> rankMap ={
     {Rank::two, "Two"},

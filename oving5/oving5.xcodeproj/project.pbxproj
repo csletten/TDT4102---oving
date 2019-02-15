@@ -11,6 +11,7 @@
 		7C443F4021E28C4D001423DD /* std_lib_facilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C443F3F21E28C4D001423DD /* std_lib_facilities.framework */; };
 		7C443F4121E28C6D001423DD /* std_lib_facilities.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C443F3F21E28C4D001423DD /* std_lib_facilities.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B86DFAB92215C3B9005598C0 /* CardDeck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B86DFAB72215C3B9005598C0 /* CardDeck.cpp */; };
+		B86DFABC22160761005598C0 /* Blackjack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B86DFABA22160761005598C0 /* Blackjack.cpp */; };
 		B88D248C220B42A100D87DE9 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88D248A220B42A100D87DE9 /* Card.cpp */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		7C443F3F21E28C4D001423DD /* std_lib_facilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = std_lib_facilities.framework; path = /Library/tdt4102/std_lib_facilities.framework; sourceTree = "<absolute>"; };
 		B86DFAB72215C3B9005598C0 /* CardDeck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CardDeck.cpp; sourceTree = "<group>"; };
 		B86DFAB82215C3B9005598C0 /* CardDeck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CardDeck.hpp; sourceTree = "<group>"; };
+		B86DFABA22160761005598C0 /* Blackjack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Blackjack.cpp; sourceTree = "<group>"; };
+		B86DFABB22160761005598C0 /* Blackjack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Blackjack.hpp; sourceTree = "<group>"; };
 		B88D248A220B42A100D87DE9 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
 		B88D248B220B42A100D87DE9 /* Card.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +77,8 @@
 				B88D248B220B42A100D87DE9 /* Card.hpp */,
 				B86DFAB72215C3B9005598C0 /* CardDeck.cpp */,
 				B86DFAB82215C3B9005598C0 /* CardDeck.hpp */,
+				B86DFABA22160761005598C0 /* Blackjack.cpp */,
+				B86DFABB22160761005598C0 /* Blackjack.hpp */,
 			);
 			path = std_lib_facilities_mac;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86DFABC22160761005598C0 /* Blackjack.cpp in Sources */,
 				B86DFAB92215C3B9005598C0 /* CardDeck.cpp in Sources */,
 				7C443F3821E28C3B001423DD /* main.cpp in Sources */,
 				B88D248C220B42A100D87DE9 /* Card.cpp in Sources */,

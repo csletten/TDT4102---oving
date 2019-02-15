@@ -33,7 +33,7 @@ string toStringShort(CardStruct card);
 
 class Card{
 public:
-    //Card();
+    Card() = default;
     Card(Suit suit, Rank rank):s{suit}, r{rank}{valid = true;};
     
     Suit suit(){return s;}

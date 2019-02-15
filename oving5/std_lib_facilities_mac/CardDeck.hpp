@@ -15,26 +15,20 @@
 
 class CardDeck{
 public:
+    // Constructor
     CardDeck();
-    /*
-    CardDeck(){
-        for (int i = static_cast<Rank>(Two); i != static_cast<Rank>(ace); i++){
-            for (int j: Suit){
-                
-            }
-        }
-        currentCardIndex = 0;
-        
-    }
-    */
     
-    // Klassen er public ettersom at det er nødvendig for brukeren å kunne stokke kortstokken
-    void swap(int index1, int index2);
-            
+    void print();
+    void printShort();
+    void shuffle();
+    const Card& drawCard();
+    
 private:
     vector<Card> cards;
     int currentCardIndex;
     
+    // Klassen er private ettersom at det er "dealeren" som stokker kortet
+    void swap(int index1, int index2);
 };
 
 #endif /* CardDeck_hpp */
