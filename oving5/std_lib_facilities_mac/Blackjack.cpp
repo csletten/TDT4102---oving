@@ -122,14 +122,14 @@ bool Blackjack::continuePlaying(){
 }
 
 // Trekker nytt kort til spilleren og øker verdien til hånden
-void Blackjack::playerDrawCard(CardDeck deck, int& playerHand){
+void Blackjack::playerDrawCard(CardDeck& deck, int& playerHand){
     Card card = deck.drawCard();
     playerHand += getPlayerValue(card);
     cout << "You drew " << card.toString() << endl;
 }
 
 // Trekker nytt kort til dealeren og øker verdien til hånden
-void Blackjack::dealerDrawCard(CardDeck deck, int& dealerHand){
+void Blackjack::dealerDrawCard(CardDeck& deck, int& dealerHand){
     Card card = deck.drawCard();
     dealerHand += getDealerValue(card, dealerHand);
 }

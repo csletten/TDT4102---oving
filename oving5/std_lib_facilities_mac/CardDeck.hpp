@@ -27,7 +27,7 @@ private:
     vector<Card> cards;
     int currentCardIndex;
     
-    // Klassen er private ettersom at det er "dealeren" som stokker kortet
+    // Klassen er private ettersom at det er "dealeren" som stokker kortene
     void swap(int index1, int index2);
 };
 

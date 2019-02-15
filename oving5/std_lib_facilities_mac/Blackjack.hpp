@@ -22,8 +22,8 @@ private:
     int getPlayerValue(Card card);
     int getDealerValue(Card card, int dealerHand);
     bool continuePlaying();
-    void playerDrawCard(CardDeck deck, int& playerHand);
-    void dealerDrawCard(CardDeck deck, int& dealerHand);
+    void playerDrawCard(CardDeck& deck, int& playerHand);
+    void dealerDrawCard(CardDeck& deck, int& dealerHand);
     
 };
 
