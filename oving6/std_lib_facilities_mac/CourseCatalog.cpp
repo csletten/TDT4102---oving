@@ -9,9 +9,7 @@
 #include "std_lib_facilities.h"
 #include "fileintro.hpp"
 #include "CourseCatalog.hpp"
-#include <map>
-#include <iostream>
-#include <fstream>
+#include "temps.hpp"
 
 // Legger til et kurs
 void CourseCatalog::addCourse(string fagkode, string fagnavn){

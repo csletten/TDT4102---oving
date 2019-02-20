@@ -9,6 +9,7 @@
 #include "std_lib_facilities.h"
 #include "fileintro.hpp"
 #include "CourseCatalog.hpp"
+#include "temps.hpp"
 
 void storeInput(){
     string userInput;
