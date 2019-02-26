@@ -20,7 +20,7 @@ struct Temps{
 
 istream& operator>>(istream&,  Temps&);
 
-vector<Temps> createVector(string filename);
+vector<Temps> createVector();
 
 
 #endif /* temps_hpp */

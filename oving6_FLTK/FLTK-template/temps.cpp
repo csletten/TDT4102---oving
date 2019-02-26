@@ -24,8 +24,11 @@ istream& operator>>(istream& is, Temps& t){
 vector<Temps> createVector(){
     vector<Temps> temps;
     ifstream temp_file{"temperatures.txt"};
-    Temps t;
-    temp_file >> t;
-    temps.push_back(t);
+    while(!temp_file.eof()){
+        Temps t;
+        temp_file >> t;
+        temps.push_back(t);
+        cout << "max: " << t.max << ", "<< "min: " << t.min <<endl;
+    }
     return temps;
 }

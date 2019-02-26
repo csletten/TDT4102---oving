@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C443F3821E28C3B001423DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C443F3721E28C3B001423DD /* main.cpp */; };
 		7C443F4021E28C4D001423DD /* std_lib_facilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C443F3F21E28C4D001423DD /* std_lib_facilities.framework */; };
 		7C443F4121E28C6D001423DD /* std_lib_facilities.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C443F3F21E28C4D001423DD /* std_lib_facilities.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B85929B7221D987D006BE48C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B85929B6221D987D006BE48C /* main.cpp */; };
+		B85929B9221D98EE006BE48C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B85929B8221D98EE006BE48C /* main.cpp */; };
 		B878C52A22171CBA00293A2E /* fileintro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B878C52822171CBA00293A2E /* fileintro.cpp */; };
 		B8BF52B6221BFFD8004CA07A /* CourseCatalog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8BF52B4221BFFD8004CA07A /* CourseCatalog.cpp */; };
 		B8BF52B9221D721D004CA07A /* temps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8BF52B7221D721D004CA07A /* temps.cpp */; };
@@ -30,14 +31,15 @@
 
 /* Begin PBXFileReference section */
 		7C443F3421E28C3B001423DD /* std_lib_facilities_mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = std_lib_facilities_mac; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C443F3721E28C3B001423DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7C443F3F21E28C4D001423DD /* std_lib_facilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = std_lib_facilities.framework; path = /Library/tdt4102/std_lib_facilities.framework; sourceTree = "<absolute>"; };
-		B878C52822171CBA00293A2E /* fileintro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fileintro.cpp; sourceTree = "<group>"; };
-		B878C52922171CBA00293A2E /* fileintro.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fileintro.hpp; sourceTree = "<group>"; };
-		B8BF52B4221BFFD8004CA07A /* CourseCatalog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CourseCatalog.cpp; sourceTree = "<group>"; };
-		B8BF52B5221BFFD8004CA07A /* CourseCatalog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CourseCatalog.hpp; sourceTree = "<group>"; };
-		B8BF52B7221D721D004CA07A /* temps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temps.cpp; sourceTree = "<group>"; };
-		B8BF52B8221D721D004CA07A /* temps.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = temps.hpp; sourceTree = "<group>"; };
+		B85929B6221D987D006BE48C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B85929B8221D98EE006BE48C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B878C52822171CBA00293A2E /* fileintro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fileintro.cpp; path = "../../oving6_FLTK/FLTK-template/fileintro.cpp"; sourceTree = "<group>"; };
+		B878C52922171CBA00293A2E /* fileintro.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = fileintro.hpp; path = "../../oving6_FLTK/FLTK-template/fileintro.hpp"; sourceTree = "<group>"; };
+		B8BF52B4221BFFD8004CA07A /* CourseCatalog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CourseCatalog.cpp; path = "../../oving6_FLTK/FLTK-template/CourseCatalog.cpp"; sourceTree = "<group>"; };
+		B8BF52B5221BFFD8004CA07A /* CourseCatalog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CourseCatalog.hpp; path = "../../oving6_FLTK/FLTK-template/CourseCatalog.hpp"; sourceTree = "<group>"; };
+		B8BF52B7221D721D004CA07A /* temps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = temps.cpp; path = "../../oving6_FLTK/FLTK-template/temps.cpp"; sourceTree = "<group>"; };
+		B8BF52B8221D721D004CA07A /* temps.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = temps.hpp; path = "../../oving6_FLTK/FLTK-template/temps.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +74,14 @@
 		7C443F3621E28C3B001423DD /* std_lib_facilities_mac */ = {
 			isa = PBXGroup;
 			children = (
-				7C443F3721E28C3B001423DD /* main.cpp */,
 				B878C52822171CBA00293A2E /* fileintro.cpp */,
 				B878C52922171CBA00293A2E /* fileintro.hpp */,
 				B8BF52B4221BFFD8004CA07A /* CourseCatalog.cpp */,
 				B8BF52B5221BFFD8004CA07A /* CourseCatalog.hpp */,
 				B8BF52B7221D721D004CA07A /* temps.cpp */,
 				B8BF52B8221D721D004CA07A /* temps.hpp */,
+				B85929B6221D987D006BE48C /* main.cpp */,
+				B85929B8221D98EE006BE48C /* main.cpp */,
 			);
 			path = std_lib_facilities_mac;
 			sourceTree = "<group>";
@@ -149,7 +152,8 @@
 			files = (
 				B878C52A22171CBA00293A2E /* fileintro.cpp in Sources */,
 				B8BF52B6221BFFD8004CA07A /* CourseCatalog.cpp in Sources */,
-				7C443F3821E28C3B001423DD /* main.cpp in Sources */,
+				B85929B7221D987D006BE48C /* main.cpp in Sources */,
+				B85929B9221D98EE006BE48C /* main.cpp in Sources */,
 				B8BF52B9221D721D004CA07A /* temps.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

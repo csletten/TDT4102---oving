@@ -1,3 +1,11 @@
+//
+//  main.cpp
+//  std_lib_facilities_mac
+//
+//  Created by Christian Sletten on 20/02/2019.
+//  Copyright © 2019 Lars Musaus. All rights reserved.
+//
+
 #include "std_lib_facilities.h"
 #include "fileintro.hpp"
 #include "CourseCatalog.hpp"
